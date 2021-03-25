@@ -7,9 +7,9 @@ vm-ram = "8192"
 vm-guest-id = "ubuntu64Guest"
 # VMware vSphere configuration #
 # VMware vCenter IP/FQDN
-vsphere-vcenter = "p054vmwvcsa01.epiqcorp.com"
+vsphere-vcenter = "p054vmwvcsa01"
 # VMware vSphere username used to deploy the infrastructure
-vsphere-user = "Christopher.Faria@epiqsystems.com"
+vsphere-user = "username"
 # VMware vSphere password used to deploy the infrastructure
 vsphere-password = "password"
 # Skip the verification of the vCenter SSL certificate (true/false)
@@ -23,7 +23,7 @@ vm-datastore = "P054POD03CMP00DS00"
 # vSphere Network used to deploy VMs
 vm-network = "p054pod03cmp00vs01-623"
 # Linux virtual machine domain name
-vm-domain = "epiqcorp.com"
+vm-domain = "local.com"
 # starting IP address
 start_ipv4_address = "18"
 offset = "1"
@@ -32,4 +32,4 @@ ipv4_address ="10.76.46.%d"
 ipv4_netmask ="24"
 dns_server_list ="10.255.0.10"
 dns_server_list_1 ="10.255.0.11"
-dns_suffix_list ="epiqcorp.com"
+dns_suffix_list ="local.com"
